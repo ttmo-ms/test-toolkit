@@ -1,5 +1,4 @@
-ARG JDK_VERSION
-FROM openjdk:$JDK_VERSION
+FROM openjdk:15
 
 MAINTAINER Jover Zhang <joverzh@gmail.com>
 
