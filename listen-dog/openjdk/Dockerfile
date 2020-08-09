@@ -3,5 +3,6 @@ FROM openjdk:$JDK_VERSION
 
 MAINTAINER Jover Zhang <joverzh@gmail.com>
 
-RUN yum install -y procps wget
-RUN wget -P /bin https://raw.githubusercontent.com/JoverZhang/bash-toolkit/master/docker/listenDog.sh
+ADD ../listenDog.sh /bin
+
+RUN yum install -y procps
