@@ -23,7 +23,7 @@ This project mainly provides testing environment or service for parent project [
 
 Pull from docker hub with:
 ```shell script
-docker pull listen-dog:11
+docker pull ttmo/listen-dog:11
 ```
 
 Customize build with:
